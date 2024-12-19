@@ -18,7 +18,7 @@ def load_custom_css():
         background: linear-gradient(to bottom, #E0FFFF, #B0E0E6);
         position: relative;
         overflow: hidden;
-        font-family: 'Zhi Mang Xing', cursive;
+        #font-family: 'Zhi Mang Xing', cursive;
     }
     
     body::before {
