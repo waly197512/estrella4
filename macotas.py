@@ -12,7 +12,7 @@ st.set_page_config(page_title="Tu compañia perfecta. ", layout="wide")
 def load_custom_css():
     st.markdown("""
     <style>
-    #@import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing&display=swap');
     
     body {
         background: linear-gradient(to bottom, #E0FFFF, #B0E0E6);
@@ -85,11 +85,12 @@ data = {
     ],
     'imagen': [
         "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9",
+        
           "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9",
             "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9",
               "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9",
-             
-        "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9", "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9", "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9",
+             "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9", 
+        "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9", "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9",
           "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9", 
         "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9", "https://www.infobae.com/resizer/v2/74NIPN7HBZAZLDYZ2NGDSNNNCU.jpg?auth=235f72d1047a3c0d8040da192cbde3d85403c2ab391d4684af36239dcf6e70c9"
     ]
